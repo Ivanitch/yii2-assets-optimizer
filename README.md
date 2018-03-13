@@ -93,8 +93,8 @@ Config options
         'skipMinifiedPattern' => '.min',
         
         // Whitelist app routes
-        // If not empty, only there app routes will use this extension
-        // If app route is present in whitelist and blacklist at the same time - blacklist has higher priority
+        // If not empty, only these app routes will use this extension
+        // If entry is present in whitelist and blacklist at the same time, blacklist has higher priority
         // Example config: extension will work only with SiteController and actionIndex.
         // Leave this option empty for extension to work everywhere
         'routesWhitelist' => [
