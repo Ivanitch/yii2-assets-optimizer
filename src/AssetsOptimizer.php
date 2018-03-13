@@ -157,8 +157,8 @@ class AssetsOptimizer extends Component implements BootstrapInterface
                 if ($isController && !empty($this->routesBlacklist)) {
                     if ((array_key_exists($context->id, $this->routesBlacklist)
                             && empty($this->routesBlacklist[$context->id]))
-                        || (array_key_exists($context->id, $this->routesWhitelist)
-                            && in_array($context->action->id, $this->routesWhitelist[$context->id]))) {
+                        || (array_key_exists($context->id, $this->routesBlacklist)
+                            && in_array($context->action->id, $this->routesBlacklist[$context->id]))) {
                         return true;
                     }
                 }
