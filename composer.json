@@ -1,0 +1,21 @@
+{
+  "name": "vnxdev/yii2-assets-optimizer",
+  "description": "Yii2 Assets Optimizer",
+  "type": "yii2-extension",
+  "require": {
+    "yiisoft/yii2": "^2",
+    "matthiasmullie/minify": "^1.3"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "vnxdev",
+      "email": "vnxdev@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "vnxdev\\Yii2AssetsOptimizer\\": "src/"
+    }
+  }
+}
