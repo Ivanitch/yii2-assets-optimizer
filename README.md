@@ -14,7 +14,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist nxdev/yii2-assets-optimizer "^1.0"
+php composer.phar require --prefer-dist vnxdev/yii2-assets-optimizer "^1.0"
 ```
 
 or add
