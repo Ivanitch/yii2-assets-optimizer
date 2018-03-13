@@ -1,6 +1,6 @@
 {
   "name": "vnxdev/yii2-assets-optimizer",
-  "description": "Yii2 Assets Optimizer",
+  "description": "Yii2 extension to minify and combine css and js files automatically. Created to be easy and work out of the box",
   "type": "yii2-extension",
   "require": {
     "yiisoft/yii2": "^2",
