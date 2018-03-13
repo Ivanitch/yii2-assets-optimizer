@@ -38,7 +38,7 @@ How to use
     //....
         'assetsOptimizer' =>
         [
-            'class' => 'vnxdev/yii2-assets-optimizer',
+            'class' => 'vnxdev\Yii2AssetsOptimizer\AssetsOptimizer',
             'enabled' => true
         ],
     //....
@@ -51,7 +51,7 @@ Config options
 ```php
     'assetsOptimizer' =>
     [
-        'class' => 'vnxdev/yii2-assets-optimizer',
+        'class' => 'vnxdev\Yii2AssetsOptimizer\AssetsOptimizer',
         
         // Enable or disable the component
         'enabled' => true,
