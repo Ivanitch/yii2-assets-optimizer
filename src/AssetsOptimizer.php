@@ -31,7 +31,7 @@ class AssetsOptimizer extends Component implements BootstrapInterface
     public $enabled = true;
 
     /**
-     * Time in seconds for reading each asset file
+     * Time in seconds for reading each external asset file
      * @var int
      */
     public $readFileTimeout = 2;
